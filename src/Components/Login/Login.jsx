@@ -1,5 +1,4 @@
 import React from 'react'
-import {FaUser, FaLock} from 'react-icons/fa'
 import { useState } from 'react'
 import './Login.css'
 import InputLogin from './InputLogin.jsx'
@@ -29,12 +28,5 @@ const Login = () => {
     </div>
   )
 }
-
-/*
-<div className='input-field'>
-                <input type="email" placeholder="E-mail" onChange={(e) => SetUsername(e.target.value)}/>
-                <FaUser className='icon'/>
-            </div>
-*/
 
 export default Login
